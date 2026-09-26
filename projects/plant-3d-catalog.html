@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant 3D specs &amp; catalogs &mdash; Pearce O'Connor</title>
+<meta name="description" content="Building custom Plant 3D piping specs and part catalogs for refrigeration systems at T.G. Gallagher.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="site-name" href="../index.html">Pearce O'Connor</a>
+    <nav>
+      <a href="../projects.html">Projects</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<a class="back" href="../projects.html">&larr; Projects</a>
+
+<h1>Plant 3D specs &amp; catalogs</h1>
+<p class="sub">Plant 3D &middot; T.G. Gallagher co-op</p>
+
+<p>We had a frustrating problem with our Plant 3D workflow. The software ships with generic pipe specs and part catalogs, but none of it matched what we actually installed on refrigeration jobs. Engineers would design with standard parts, then the fabrication team had to translate everything into our real suppliers' components &mdash; a lot of guessing, wrong orders, and delays waiting for the right parts. My boss asked me to set up custom specs and catalogs with the parts we actually used, so designs would match what got built.</p>
+
+<p>First I talked to the project managers and the guys who'd been in the field to pin down exactly which manufacturers and parts we used regularly &mdash; specific copper tube sizes, fitting types, valves, all the refrigeration-specific stuff. Then I had to learn Plant 3D's spec editor, which was honestly kind of a pain. Everything is organized by piping class, pressure ratings, and temperature ranges, and you have to link manufacturer parts to the right specs. Getting part numbers, sizes, and connection types entered correctly took forever. I pulled data from manufacturer websites, checked it against old project submittals, and built test piping layouts to make sure everything actually fit together. When I couldn't find a spec, I just called our suppliers and asked.</p>
+
+<figure>
+  <img src="../images/plant3d-1.png" alt="Custom Plant 3D spec and catalog entries">
+  <figcaption>Custom piping specs built around our actual suppliers' components.</figcaption>
+</figure>
+
+<p>Once it was set up, I built a test project &mdash; a small refrigeration system with all the correct parts &mdash; and ran a bill of materials to confirm the quantities and part numbers matched what we'd actually order. The team's feedback was good: people liked grabbing the right parts from the catalog instead of looking everything up separately, and when engineers designed something, we knew right away whether it would work with our actual systems.</p>
+
+<figure>
+  <img src="../images/plant3d-2.png" alt="Test piping layout verifying the custom specs">
+  <figcaption>Test layout used to verify the specs before rollout.</figcaption>
+</figure>
+
+<p>This became the standard for Plant 3D specs on all our projects afterward. It saved a ton of time and frustration, and the designs got noticeably more accurate. It also drove home a lesson: if the specs and catalogs behind a BIM model aren't right, the whole workflow falls apart. Good data in, good model out.</p>
+
+<figure>
+  <img src="../images/plant3d-3.png" alt="Bill of materials generated from the custom catalog">
+  <figcaption>Bill of materials generated from the new catalog &mdash; quantities and part numbers matching real orders.</figcaption>
+</figure>
+
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <a href="mailto:pearce.oconnor1@gmail.com">pearce.oconnor1@gmail.com</a>
+    <a href="https://github.com/prizcewalloggen">GitHub</a>
+    <span>LinkedIn: Pearce O'Connor</span>
+  </div>
+</footer>
+
+</body>
+</html>

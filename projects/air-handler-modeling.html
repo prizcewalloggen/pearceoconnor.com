@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Air handler modeling &mdash; Pearce O'Connor</title>
+<meta name="description" content="Modeling air handling units in Revit from 2D engineering submittals at T.G. Gallagher.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="site-name" href="../index.html">Pearce O'Connor</a>
+    <nav>
+      <a href="../projects.html">Projects</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<a class="back" href="../projects.html">&larr; Projects</a>
+
+<h1>Air handler modeling</h1>
+<p class="sub">Revit &middot; T.G. Gallagher co-op</p>
+
+<p>At T.G. Gallagher we kept running into the same problem: air handlers showing up on site that didn't fit where we thought they would. The engineering submittals came in as 2D drawings with equipment schedules, so our team had to guess at the actual size and layout before we could check for conflicts with other systems. We were always playing catch-up &mdash; finding problems during installation instead of beforehand. My supervisor asked me to fix it by building accurate 3D models of the air handlers straight from the submittal drawings, so we could coordinate properly before equipment even got ordered.</p>
+
+<p>The tricky part was that every manufacturer's submittal looked different. Some had great detail; others were pretty bare-bones. I dug through the PDF drawings to pull out what mattered: overall dimensions, duct connection locations and sizes, and the clearance space each unit needed. Then I used Revit's family editor to build 3D models matching the real equipment, including connection points for ducts, pipes, and electrical. When submittals didn't have enough information &mdash; which happened a lot &mdash; I'd look up manufacturer spec sheets or check with the mechanical engineers rather than guess. I also set up a naming and organization system for the families so other people on the team could actually find and use them later.</p>
+
+<figure>
+  <img src="../images/air-handler-1.png" alt="Revit model of an air handling unit">
+  <figcaption>Air handler modeled in Revit from the manufacturer's submittal drawings.</figcaption>
+</figure>
+
+<p>Once the models existed, we caught conflicts weeks earlier. Instead of discovering during installation that a unit would hit a beam or block access to something else, we found out while there was still time to do something about it. The subcontractors liked having accurate models too, because they could plan their work better. After that, this became the standard way we handled major equipment on future projects.</p>
+
+<figure>
+  <img src="../images/air-handler-2.png" alt="Coordination view showing the air handler with surrounding systems">
+  <figcaption>Coordinating the unit against surrounding structure and systems before installation.</figcaption>
+</figure>
+
+<p>The whole thing taught me something I keep coming back to: turning engineering documents into usable 3D information is where BIM actually saves time and money. A model is only as useful as the data behind it.</p>
+
+<figure>
+  <img src="../images/air-handler-3.png" alt="Detail view of modeled connections">
+  <figcaption>Modeled connection points for ducts, piping, and electrical.</figcaption>
+</figure>
+
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <a href="mailto:pearce.oconnor1@gmail.com">pearce.oconnor1@gmail.com</a>
+    <a href="https://github.com/prizcewalloggen">GitHub</a>
+    <span>LinkedIn: Pearce O'Connor</span>
+  </div>
+</footer>
+
+</body>
+</html>
